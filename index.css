@@ -1,0 +1,930 @@
+body {
+    scroll-behavior: smooth;
+    background-color: gray;
+    font-weight: 1000;
+}
+
+header h3 {
+    font-size: 30px;
+}
+
+.Links-Div {
+    margin: 20px 70px;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+}
+
+.Intro-btn {
+    background-color: rgb(27, 26, 26);
+}
+
+.Links-Div h3 {
+    color: rgb(255, 196, 0);
+    transition: 0.7s;
+}
+
+.Links-Div h3:hover {
+    transform: scale(1.1);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.Links-Div span {
+    color: white;
+}
+
+.Links-Div header {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.Links-Div a {
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+
+}
+
+a:hover {
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
+
+#Home-Link {
+    color: rgb(255, 196, 0);
+}
+
+.Links-Div input {
+    color: white;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px black;
+    transition: 0.7s;
+}
+
+.Links-Div input:hover {
+    transform: scale(1.1);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.Details-Div {
+    border: 2px solid transparent;
+    margin: 90px px;
+    width: 700px;
+    height: 200px;
+}
+
+.Details-Div label {
+    color: white;
+    box-shadow: 0 5px 25px black;
+    border: 2px solid transparent;
+    border-radius: 9px;
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Details-Div h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 5000;
+    font-size: 4em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.Details-Div p {
+    margin-top: 25px;
+    color: rgb(206, 202, 202);
+    font-size: 15px;
+}
+
+#Cv-btn {
+    background-color: rgb(255, 196, 0);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    padding: 3px 8px;
+    box-shadow: 0 5px 25px black;
+}
+
+#show-btn {
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    padding: 3px 8px;
+    box-shadow: 0 5px 25px black;
+}
+
+.div-btn input {
+    transition: 0.6s;
+}
+
+.div-btn input:hover {
+    transform: scale(1.0);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.Social-Links {
+    margin-left: 90px;
+}
+
+.Social-Icons {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 10px;
+    transition: color 0.5s;
+    padding: 4px 10px;
+}
+
+.Social-Icons:hover {
+    color: rgb(255, 196, 0);
+}
+
+.Main-div {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.Small-divs {
+    background-color: rgb(27, 26, 26);
+    border-radius: 20px;
+    width: 1248px;
+    height: 600px;
+}
+
+#Services-div {
+    width: 1248px;
+    height: 600px;
+}
+
+.ImgDiv {
+    width: 350px;
+    /* زيادة حجم الدائرة */
+    height: 350px;
+    /* زيادة حجم الدائرة */
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 80px;
+    border: 5px solid rgb(255, 196, 0);
+    background-color: rgb(255, 196, 0);
+}
+
+.ImgDiv .circle-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: url('im1.jpg');
+    /* استبدل بالاسم والامتداد الصحيحين */
+    background-position: center center;
+    /* تحديد الجزء المركزي العلوي من الصورة */
+    background-size: 120%;
+    /* تكبير الصورة بنسبة معينة */
+    border-radius: 50%;
+}
+
+.div-con-img-and-Details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid transparent;
+    margin: 50px 90px;
+    height: 200px;
+}
+
+.card {
+    background-color: #fff;
+    width: 9em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 37px;
+    margin: -15px 20px;
+    transition: 0.5s ease;
+    height: 370px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.icon {
+    color: rgb(255, 196, 0);
+    font-size: 7em;
+    text-align: center;
+}
+
+.info {
+    align-items: center;
+}
+
+.info h3 {
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.Works-Divs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Services h2 {
+    color: rgb(255, 196, 0);
+    margin-left: 495px;
+    font-size: 60px;
+}
+
+.Services span {
+    color: white;
+}
+
+
+
+#Services-div {
+    margin-right: 100px;
+}
+
+.contact-us-input {
+    display: grid;
+    background-color: rgb(255, 196, 0);
+    width: 450px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.inputss {
+    display: grid;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.inputss input {
+    margin: 5px 0px;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 30px;
+}
+
+#Message-input {
+    height: 120px;
+}
+
+.div-inputs-btns {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    justify-content: space-between;
+    margin-left: 65px;
+}
+
+.inputss {
+    display: grid;
+}
+
+.inputss input {
+    transition: 0.4s;
+}
+
+.inputss input:focus {
+    transform: scale(1.1);
+}
+
+#sub-btn {
+    background-color: rgb(19, 244, 19);
+    color: white;
+    border: 3px solid white;
+    border-radius: 14px;
+    width: 100px;
+    height: 30px;
+    transition: 0.5s;
+
+}
+
+#can-btn {
+    background-color: red;
+    color: white;
+    border: 3px solid white;
+    border-radius: 14px;
+    width: 80px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#can-btn:hover,
+#sub-btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    letter-spacing: 2.5px;
+}
+
+.about-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 50px 90px;
+    height: 200px;
+}
+
+.about {
+    margin-top: 180px;
+    margin-left: -75px;
+}
+
+.about h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 650px;
+    height: 38px;
+    margin: 20px 0px;
+}
+
+.about h3 span {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.about h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(255, 196, 0);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.about p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    width: 750px;
+}
+
+.about label {
+    color: white;
+}
+
+.form-div {
+    display: flex;
+
+    justify-content: center;
+    justify-content: space-between;
+    width: 900px;
+    margin-right: 190px;
+    margin-left: 160px;
+}
+
+.contact-us-div h2 {
+    color: rgb(255, 196, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+.contact-us-div span {
+    color: white;
+}
+
+.contact-us-div p {
+    color: rgb(255, 196, 0);
+}
+
+.Social-Links2 h2 {
+    font-size: 26px;
+}
+
+.movie {
+    width: 230px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 6px;
+    height: 400px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    flex-wrap: wrap;
+}
+
+.movie:hover {
+    transform: scale(1.05);
+}
+
+.div-header {
+    background-color: rgb(255, 196, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-movie {
+    width: 100%;
+    height: 33%;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+
+.div-words {
+    padding: 5px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.show-btn {
+    background-color: rgb(255, 196, 0);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.show-btn:hover {
+    background-color: rgb(255, 196, 0);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.Large-Div {
+    display: flex;
+}
+
+.first-three-project {
+    display: flex;
+    padding: 10px 13px;
+}
+
+
+
+@media (min-width:100px) and (max-width:950px) {
+    body {
+        scroll-behavior: smooth;
+        background-color: gray;
+        font-weight: 1000;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .Blogs .Links {
+        font-size: 14px;
+        padding: 0px 2px;
+    }
+
+    .Links-Div {
+        margin: 20px 0;
+        border: 2px solid transparent;
+        box-sizing: border-box;
+    }
+
+    .Intro-btn {
+        background-color: rgb(27, 26, 26);
+        color: white;
+    }
+
+    .Links-Div h3 {
+        color: rgb(255, 196, 0);
+        transition: 0.7s;
+    }
+
+    .Links-Div h3:hover {
+        transform: scale(1.1);
+        letter-spacing: 2px;
+        cursor: pointer;
+    }
+
+    .Links-Div span {
+        color: white;
+    }
+
+    .connn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 290px;
+    }
+
+    .Blogs {
+        display: flex;
+    }
+
+
+    .Links-Div header {
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .Links-Div a {
+        padding: 0px 7px;
+        text-decoration: none;
+        color: white;
+        transition: 0.5s;
+        font-size: 16px;
+    }
+
+    a:hover {
+        transform: scale(1.1);
+        letter-spacing: 2px;
+    }
+
+    #Home-Link {
+        color: rgb(255, 196, 0);
+    }
+
+    .Links-Div input {
+        color: white;
+        height: 30px;
+        width: 70px;
+        border-radius: 20px;
+        box-shadow: 0 5px 25px black;
+        transition: 0.7s;
+    }
+
+    .Links-Div input:hover {
+        transform: scale(1.1);
+        letter-spacing: 2px;
+        cursor: pointer;
+    }
+
+    .Details-Div {
+        border: 2px solid transparent;
+        width: 90%;
+        max-width: 800px;
+
+        text-align: center;
+    }
+
+    .Details-Div label {
+        color: white;
+        box-shadow: 0 5px 25px black;
+        border: 2px solid transparent;
+        border-radius: 9px;
+        padding: 0 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .Details-Div h1 {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 5000;
+        font-size: 4em;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .Details-Div p {
+        margin-top: 25px;
+        color: rgb(206, 202, 202);
+        font-size: 15px;
+    }
+
+    #Cv-btn {
+        background-color: rgb(255, 196, 0);
+        color: white;
+        border: 2px solid transparent;
+        border-radius: 6px;
+        padding: 3px 8px;
+        box-shadow: 0 5px 25px black;
+        margin-top: 20px;
+    }
+
+    #show-btn {
+        background-color: rgb(27, 26, 26);
+        color: white;
+        border: 2px solid transparent;
+        border-radius: 6px;
+        padding: 3px 8px;
+        box-shadow: 0 5px 25px black;
+        margin-top: 20px;
+    }
+
+    .div-btn input {
+        transition: 0.6s;
+    }
+
+    .div-btn input:hover {
+        transform: scale(1.0);
+        letter-spacing: 2px;
+        cursor: pointer;
+    }
+
+    .Social-Links {
+        margin-left: 5%;
+    }
+
+    .Social-Icons {
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        margin-right: 10px;
+        transition: color 0.5s;
+        padding: 4px 10px;
+    }
+
+    .Social-Icons:hover {
+        color: rgb(255, 196, 0);
+    }
+
+    .Main-div {
+
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #Projects {
+
+        background-color: rgb(27, 26, 26);
+        border-radius: 20px;
+        width: 90%;
+        margin: 20px auto;
+        padding: 7px;
+        height: 2500px;
+        box-sizing: border-box;
+    }
+
+    .Small-divs {
+        background-color: rgb(27, 26, 26);
+        border-radius: 20px;
+        width: 90%;
+        max-width: 1300px;
+        margin: 20px auto;
+        padding: 7px;
+        height: 1100px;
+        box-sizing: border-box;
+    }
+
+    #Services-div {
+        width: 90%;
+        max-width: 1300px;
+        margin-right: 5%;
+    }
+
+    .ImgDiv {
+        width: 100%;
+        max-width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: 20px;
+        border: 5px solid rgb(255, 196, 0);
+        background-color: rgb(255, 196, 0);
+    }
+
+    .ImgDiv .circle-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        background-position: center center;
+    }
+
+    .div-con-img-and-Details {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid transparent;
+        margin: 20px 5%;
+    }
+
+    .card {
+        background-color: #fff;
+        width: 100%;
+        max-width: 250px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px 0;
+        transition: 0.5s ease;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .icon {
+        color: rgb(255, 196, 0);
+        font-size: 7em;
+        text-align: center;
+    }
+
+    .info {
+        align-items: center;
+    }
+
+    .info h3 {
+        color: #3a6cf4;
+        font-size: 1.2em;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+    .Works-Divs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .Services h2 {
+        color: rgb(255, 196, 0);
+        font-size: 2.5em;
+        margin-left: 5%;
+    }
+
+    .Services span {
+        color: white;
+    }
+
+    #Services-div {
+        margin-right: 5%;
+    }
+
+    .contact-us-input {
+        display: grid;
+        background-color: rgb(255, 196, 0);
+        width: 90%;
+        max-width: 500px;
+        border: 2px solid black;
+        border-radius: 40px;
+        margin: 5% auto;
+    }
+
+    .inputss {
+        display: grid;
+        margin: 5%;
+    }
+
+    .inputss input {
+        margin: 5px 0px;
+        border: 2px solid black;
+        border-radius: 30px;
+        height: 30px;
+        padding: 0 10px;
+    }
+
+    #Message-input {
+        height: 120px;
+    }
+
+    .div-inputs-btns {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 5%;
+    }
+
+    #sub-btn,
+    #can-btn {
+        background-color: rgb(27, 26, 26);
+        color: white;
+        border: 3px solid white;
+        border-radius: 14px;
+        padding: 5px 20px;
+        box-sizing: border-box;
+        transition: 0.5s;
+    }
+
+    #can-btn:hover,
+    #sub-btn:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        letter-spacing: 2.5px;
+    }
+
+    .about-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        max-width: 1300px;
+        margin: 20px 5%;
+    }
+
+    .about {
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+
+    .about h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        width: 100%;
+        max-width: 650px;
+        height: 38px;
+        margin: 20px 0px;
+    }
+
+    .about h3 span {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .about h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5em;
+        color: rgb(255, 196, 0);
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .about p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        margin-top: 5px;
+        width: 100%;
+        max-width: 750px;
+    }
+
+    .about label {
+        color: white;
+    }
+
+    .form-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+        max-width: 1300px;
+        margin: 5% auto;
+    }
+
+    .contact-us-div h2 {
+        color: rgb(255, 196, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5em;
+    }
+
+    .contact-us-div span {
+        color: white;
+    }
+
+    .contact-us-div p {
+        color: rgb(255, 196, 0);
+    }
+
+    .Social-Links2 h2 {
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+    }
+
+    #mjk {
+        margin-top: 290px;
+    }
+
+    #mklm {
+        margin-top: 200px;
+        margin-left: 90px;
+    }
+
+    #about-Id-hgcf {
+        height: 1250px;
+    }
+
+    #Services-divlkm {
+        height: 2500px;
+    }
+
+    .first-three-project {
+        display: grid;
+        padding: 20px 30px;
+    }
+
+}
